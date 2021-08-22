@@ -8,6 +8,7 @@ function langRU() {
 	document.getElementById("menu1").innerHTML = "Мои творения"
 	document.getElementById("menu2").innerHTML = "Обо мне"
 	document.getElementById("menu3").innerHTML = "Мой блог"
+	document.getElementById("menu4").innerHTML = "Файлы"
 	/*changing country flag and onclick function*/
 	document.getElementById("lang").src = "svg/uk.svg"
 	document.getElementById("lang").onclick = langEN
@@ -18,6 +19,7 @@ function langEN() {
 	document.getElementById("menu1").innerHTML = "My creations"
 	document.getElementById("menu2").innerHTML = "About me"
 	document.getElementById("menu3").innerHTML = "My blog"
+	document.getElementById("menu4").innerHTML = "Files"
 	/*changing country flag and onclick function*/
 	document.getElementById("lang").src = "svg/ru.svg"
 	document.getElementById("lang").onclick = langRU
