@@ -106,6 +106,13 @@ a:hover {
 	color: #7f7f7f;
 }
 
+#spotify-icon {
+	width: 50px;
+	left: 360px;
+	top: 2px;
+	color: #00ff40;
+}
+
 .fa-times-circle {
 	color:rgb(255, 0, 242);
 	font-size: 30px;
@@ -122,6 +129,7 @@ a:hover {
 #github-icon, 
 #youtube-icon, 
 #steam-icon, 
+#spotify-icon,
 #lang {
 	transition-duration: 0.4s;
 	position: absolute;
@@ -134,7 +142,8 @@ a:hover {
 #reddit-icon:hover, 
 #github-icon:hover, 
 #youtube-icon:hover, 
-#steam-icon:hover, 
+#steam-icon:hover,
+#spotify-icon:hover, 
 #lang:hover {
 	transform: scale(0.92);
 	color: white;
