@@ -8,9 +8,8 @@
 
 body {
 	font-size: 20px;
-	background-color: #1b1b2a;
+	background-color: #502372;
 	font-family: "NotoSans-Regular";
-	background-image: linear-gradient(to right, #160A33, #46007F);
 }
 
 h1 {
@@ -58,6 +57,7 @@ a:hover {
 	right: 5px;
     width: 50px;
 	bottom: 2px;
+	margin-bottom: auto;
 	opacity: 50%;
 }
 
@@ -105,12 +105,6 @@ a:hover {
 	color: #7f7f7f;
 }
 
-#spotify-icon {
-	width: 50px;
-	left: 365px;
-	top: 2px;
-	color: #00ff40;
-}
 
 .fa-times-circle {
 	color:rgb(255, 0, 242);
