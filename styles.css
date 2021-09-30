@@ -8,7 +8,7 @@
 
 body {
 	font-size: 20px;
-	background-color: #502372;
+	background-color: #4f3775;
 	font-family: "NotoSans-Regular";
 }
 
@@ -49,7 +49,7 @@ a:visited {
 a:hover {
 	margin-right: auto;
 	margin-left: auto;
-	color: #c700ff;
+	color: #ffff;
 	transition-duration: 0.3s;
 }
 
@@ -65,28 +65,24 @@ a:hover {
 	left: 5px;
     width: 50px;
 	top: 5px;
-	color: #758DD8;
 }
 
 #twitter-icon {
 	left: 65px;
     width: 50px;
 	top: 2px;
-	color: #0094ff;
 }
 
 #reddit-icon {
 	left: 125px; 
     width: 50px;
 	top: 2px;
-	color: #ff6a00;
 }
 
 #github-icon {
 	width: 50px;
 	left: 185px;
 	top: 2px;
-	color: #b200ff;
     width: 50px;
 }
 
@@ -94,7 +90,6 @@ a:hover {
 	width: 50px;
     left: 245px;
 	top: 2px;
-	color: #ff0000;
     width: 50px;
 }
 
@@ -102,7 +97,6 @@ a:hover {
 	width: 50px;
 	left: 305px;
 	top: 2px;
-	color: #7f7f7f;
 }
 
 
@@ -124,6 +118,7 @@ a:hover {
 #steam-icon, 
 #spotify-icon,
 #lang {
+	color:#7289da;
 	transition-duration: 0.4s;
 	position: absolute;
 	font-size: 64px;
@@ -149,7 +144,7 @@ a:hover {
 
 #avatar1 {
 	border-radius: 15px;
-	border: 5px solid rgb(255, 0, 242);
+	border: 5px solid #fa00ff;
 	margin-left: auto;
 	margin-right: auto;
 }
