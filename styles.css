@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Rubik';
-	src: url('Rubik-Regular.ttf');
+	src: url('font.ttf');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -23,7 +23,7 @@ p {
 }
 
 div {
-    text-align: center;   
+    text-align: center; 
    }
    
 a:link {
@@ -43,4 +43,8 @@ a:hover {
 	margin-left: auto;
 	color: #ffff;
 	transition-duration: 0.3s;
+}
+
+#bottom {
+	padding-top: 20px;
 }
