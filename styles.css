@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'NotoSans-Regular';
-	src: url('fonts/NotoSans-Regular.ttf');
+	font-family: 'Rubik';
+	src: url('Rubik-Regular.ttf');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -8,32 +8,24 @@
 
 body {
 	font-size: 20px;
-	background-color: #4f3775;
-	font-family: "NotoSans-Regular";
+    background-image: linear-gradient(to right, #330a33, #7f006e);
+	font-family: "Rubik";
 }
 
 h1 {
 	font-size:35px;
 	color: white;
-	text-align: center;
-}
-
-#avatar2 {
-	text-align: center;
-}
-
-#avatar1 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 p {
 	font-size:20px;
 	color: white;
-	text-align: center;
 }
 
+div {
+    text-align: center;   
+   }
+   
 a:link {
 	color: #fa00ff;
 	margin-right: auto;
@@ -52,181 +44,3 @@ a:hover {
 	color: #ffff;
 	transition-duration: 0.3s;
 }
-
-#lang {
-	right: 5px;
-    width: 50px;
-	bottom: 2px;
-	margin-bottom: auto;
-	opacity: 50%;
-}
-
-#discord-icon {
-	left: 5px;
-    width: 50px;
-	top: 5px;
-}
-
-#twitter-icon {
-	left: 65px;
-    width: 50px;
-	top: 2px;
-}
-
-#reddit-icon {
-	left: 125px; 
-    width: 50px;
-	top: 2px;
-}
-
-#github-icon {
-	width: 50px;
-	left: 185px;
-	top: 2px;
-    width: 50px;
-}
-
-#youtube-icon {
-	width: 50px;
-    left: 245px;
-	top: 2px;
-    width: 50px;
-}
-
-#steam-icon {
-	width: 50px;
-	left: 305px;
-	top: 2px;
-}
-
-
-.fa-times-circle {
-	color:rgb(255, 0, 242);
-	font-size: 30px;
-	top: -25px;
-	left: 295px;
-	position: relative;
-	transition-duration: 0.4s;
-	cursor: pointer;
-}
-
-#discord-icon, 
-#twitter-icon, 
-#reddit-icon, 
-#github-icon, 
-#youtube-icon, 
-#steam-icon, 
-#spotify-icon,
-#lang {
-	color:#7289da;
-	transition-duration: 0.4s;
-	position: absolute;
-	font-size: 64px;
-	cursor: pointer;
-}
-
-#discord-icon:hover, 
-#twitter-icon:hover, 
-#reddit-icon:hover, 
-#github-icon:hover, 
-#youtube-icon:hover, 
-#steam-icon:hover,
-#spotify-icon:hover, 
-#lang:hover {
-	transform: scale(0.92);
-	color: white;
-}
-
-.fa-times-circle:hover {
-	transform: scale(0.92);
-	color: white;
-}
-
-#avatar1 {
-	border-radius: 15px;
-	border: 5px solid #fa00ff;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#noscript {
-	font-size: 20px;
-	text-align: center;
-	color: red;
-}
-
-#wallpaper {
-	margin-right: auto;
-	margin-left: auto;
-	border-radius: 15px;
-}
-
-#wallpaper2 {
-	text-align: center;
-}
-
-#div1 {
-	text-align: center;
-	padding-top: 30px;
-}
-
-#creations {
-	padding-top: 40px;
-}
-
-#main3 {
-	margin: 2px;
-}
-
-#main6 {
-	margin: 2px;
-}
-
-#modalBg {
-	display: none; /* Hidden by default */
-	position: fixed; /* Stay in place */
-	z-index: 2; /* Sit on top */
-	padding-top: 194px; /* Location of the box */
-	left: 0;
-	top: 0;
-	width: 100%; /* Full width */
-	height: 100%; /* Full height */
-	overflow: auto; /* Enable scroll if needed */
-	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-
-#modalContent {
-	background-color: rgba(0,0,0,0.2);
-	margin: auto;
-	padding: 20px;
-	border: 5px solid rgb(255, 0, 242);
-	-webkit-backdrop-filter: blur(10px);
-  	backdrop-filter: blur(10px);
-	border-radius: 15px;
-	width: 300px;
-	z-index: 3;
-}
-
-body {
-	animation-name: fade;
-	animation-duration: 1.2s;
-}
-
-@keyframes fade {
-	0% {
-		opacity: 0%;
-	}
-	25% { 
-		opacity: 25%;
-	}
-	50% {
-		opacity: 50%;
-	}
-	75% {
-		 opacity: 75%;
-	}
-	100% {
-		opacity: 100%;
-	}
-}	
