@@ -17,15 +17,27 @@ h1 {
 	color: white;
 }
 
+h2 {
+	font-size: 25px;
+	color: white;
+}
+
 p {
+	margin: 0;
 	font-size:20px;
 	color: white;
 }
 
 div {
     text-align: center; 
+	padding-bottom: 20px;
    }
-   
+
+a {
+	padding-right: 5px;
+	display: inline-block;
+}
+
 a:link {
 	color: #fa00ff;
 	margin-right: auto;
@@ -34,8 +46,6 @@ a:link {
 
 a:visited {
 	color: #fa00ff;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 a:hover {
@@ -45,6 +55,16 @@ a:hover {
 	transition-duration: 0.3s;
 }
 
-#bottom {
-	padding-top: 20px;
+footer {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(80, 0, 53, 0.5);
+	width: 350.727px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #7f006e;
 }
