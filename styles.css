@@ -68,3 +68,8 @@ footer {
 	border-style: solid;
 	border-color: #7f006e;
 }
+
+img {
+	border-radius: 20px;
+	padding-top: 10px;
+}
