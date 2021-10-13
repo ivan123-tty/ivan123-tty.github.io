@@ -1,3 +1,16 @@
+:root {
+	text-align: center;
+	font-size: 20px;
+}
+
+body {
+	background-attachment:fixed;
+	background-origin:initial;
+	background-repeat:no-repeat;
+    background-image: linear-gradient(to right, #330a33, #7f006e);
+	font-family: "Rubik";
+}
+
 @font-face {
 	font-family: 'Rubik';
 	src: url('font.ttf');
@@ -6,35 +19,20 @@
 	font-display: swap;
 }
 
-body {
-	background-attachment:fixed;
-	background-origin:inital;
-	background-repeat:no repeat;
-    background-image: linear-gradient(to right, #330a33, #7f006e);
-	font-family: "Rubik";
-	font-size: 20px;
-}
+div {
+	padding-bottom: 20px;
+   }
+
 
 h1 {
-	font-size:35px;
-	color: white;
-}
-
-h2 {
-	font-size: 25px;
+	font-size: 30px;
 	color: white;
 }
 
 p {
 	margin: 0;
-	font-size:20px;
 	color: white;
 }
-
-div {
-    text-align: center; 
-	padding-bottom: 20px;
-   }
 
 a {
 	padding-right: 5px;
@@ -58,7 +56,6 @@ footer {
 	display: block;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: rgba(80, 0, 53, 0.5);
