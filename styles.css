@@ -7,9 +7,12 @@
 }
 
 body {
-	font-size: 20px;
+	background-attachment:fixed;
+	background-origin:inital;
+	background-repeat:no repeat;
     background-image: linear-gradient(to right, #330a33, #7f006e);
 	font-family: "Rubik";
+	font-size: 20px;
 }
 
 h1 {
@@ -40,8 +43,6 @@ a {
 
 a:link {
 	color: #fa00ff;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 a:visited {
@@ -49,8 +50,6 @@ a:visited {
 }
 
 a:hover {
-	margin-right: auto;
-	margin-left: auto;
 	color: #ffff;
 	transition-duration: 0.3s;
 }
@@ -63,13 +62,17 @@ footer {
 	margin-right: auto;
 	margin-left: auto;
 	background-color: rgba(80, 0, 53, 0.5);
-	width: 350.727px;
+	max-width: 320px;
+	min-width: 87px;
 	border-radius: 20px;
 	border-style: solid;
-	border-color: #7f006e;
+	border-color: rgb(180, 0, 156);
 }
 
-img {
+.httpcat {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
 	border-radius: 20px;
 	padding-top: 10px;
 }
