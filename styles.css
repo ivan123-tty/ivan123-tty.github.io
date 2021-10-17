@@ -8,12 +8,7 @@ body {
 	background-origin:initial;
 	background-repeat:no-repeat;
     background-image: linear-gradient(to right, #330a33, #7f006e);
-	font-family: "Rubik";
-}
-
-@font-face {
-	font-family: 'Rubik';
-	src: url('font.ttf');
+	font-family: Arial, sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -22,7 +17,6 @@ body {
 div {
 	padding-bottom: 20px;
    }
-
 
 h1 {
 	font-size: 30px;
