@@ -55,12 +55,15 @@ div {
 	padding-top: 20px;
 }
 
-.httpcat {
-	padding-top: 20px;
+.notfound {
 	width: 100%;
 	max-width: 400px;
 	height: auto;
 	border-radius: 20px;
+	border-style: solid;
+	border-color: rgb(180, 0, 156);
+	background-color: rgba(80, 0, 53, 0.5);
+	margin-top: 20px;
 }
 
 h1 {
