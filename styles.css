@@ -20,8 +20,48 @@ body {
 }
 
 div {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
 	padding-bottom: 20px;
+}
+
+.description {
+	background-color: rgba(80, 0, 53, 0.5);
+	border-radius: 20px;
+	border-style: solid;
+	border-color: rgb(180, 0, 156);
+	max-width: 320px;
+	min-width: 87px;
    }
+
+.links {
+	background-color: rgba(80, 0, 53, 0.5);
+	border-radius: 20px;
+	border-style: solid;
+	border-color: rgb(180, 0, 156);
+	max-width: 320px;
+	min-width: 87px;
+}
+
+.footer {
+	background-color: rgba(80, 0, 53, 0.5);
+	max-width: 320px;
+	min-width: 87px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: rgb(180, 0, 156);
+	padding-top: 20px;
+}
+
+.httpcat {
+	padding-top: 20px;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	border-radius: 20px;
+}
 
 h1 {
 	font-size: 30px;
@@ -49,26 +89,4 @@ a:visited {
 a:hover {
 	color: #ffff;
 	transition-duration: 0.3s;
-}
-
-footer {
-	display: block;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: rgba(80, 0, 53, 0.5);
-	max-width: 320px;
-	min-width: 87px;
-	border-radius: 20px;
-	border-style: solid;
-	border-color: rgb(180, 0, 156);
-}
-
-.httpcat {
-	width: 100%;
-	max-width: 400px;
-	height: auto;
-	border-radius: 20px;
-	padding-top: 10px;
 }
