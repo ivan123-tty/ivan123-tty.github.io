@@ -47,12 +47,12 @@ div {
 
 .footer {
 	background-color: rgba(80, 0, 53, 0.5);
-	max-width: 320px;
-	min-width: 87px;
 	border-radius: 20px;
 	border-style: solid;
 	border-color: rgb(180, 0, 156);
 	padding-top: 20px;
+	max-width: 320px;
+	min-width: 87px;
 }
 
 .notfound {
