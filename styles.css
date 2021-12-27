@@ -19,50 +19,27 @@ body {
     background-image: linear-gradient(to right, #330a33, #7f006e);
 }
 
-div {
+.description, .links, .footer, .notfound {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
-}
-
-.description {
 	background-color: rgba(80, 0, 53, 0.5);
+	border: 6px solid rgba(180, 0, 156);
 	border-radius: 20px;
-	border-style: solid;
-	border-color: rgb(180, 0, 156);
-	max-width: 320px;
-	min-width: 87px;
-   }
-
-.links {
-	background-color: rgba(80, 0, 53, 0.5);
-	border-radius: 20px;
-	border-style: solid;
-	border-color: rgb(180, 0, 156);
 	max-width: 320px;
 	min-width: 87px;
 }
 
 .footer {
-	background-color: rgba(80, 0, 53, 0.5);
-	border-radius: 20px;
-	border-style: solid;
-	border-color: rgb(180, 0, 156);
 	padding-top: 20px;
-	max-width: 320px;
-	min-width: 87px;
 }
 
 .notfound {
 	width: 100%;
 	max-width: 400px;
 	height: auto;
-	border-radius: 20px;
-	border-style: solid;
-	border-color: rgb(180, 0, 156);
-	background-color: rgba(80, 0, 53, 0.5);
 	margin-top: 20px;
 }
 
@@ -76,16 +53,9 @@ p {
 	color: white;
 }
 
-a {
+a, a:link, a:visited {
 	padding-right: 5px;
 	display: inline-block;
-}
-
-a:link {
-	color: #ff00dd;
-}
-
-a:visited {
 	color: #ff00dd;
 }
 
