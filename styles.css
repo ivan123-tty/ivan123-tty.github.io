@@ -16,7 +16,7 @@ body {
 	background-attachment:fixed;
 	background-origin:initial;
 	background-repeat:no-repeat;
-    background-image: linear-gradient(to right, #330a33, #7f006e);
+    background-image: linear-gradient(310deg, #330a33, #940080);
 }
 
 .description, .links, .footer, .notfound {
