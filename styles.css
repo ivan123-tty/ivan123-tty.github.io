@@ -22,9 +22,9 @@ body {
 }
 
 @keyframes bg {
-    0%{background-position:0% 94%}
-    50%{background-position:100% 7%}
-    100%{background-position:0% 94%}
+    0%{background-position:100% 7%}
+    50%{background-position:0% 94%}
+    100%{background-position:100% 7%}
 }
 
 .description, .links, .footer, .notfound {
