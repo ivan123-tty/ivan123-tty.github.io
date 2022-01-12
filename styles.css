@@ -17,14 +17,6 @@ body {
 	background-origin:initial;
 	background-repeat:no-repeat;
     background-image: linear-gradient(310deg, #330a33, #b00098);
-    background-size: 400% 400%;
-    animation: bg 8s ease infinite;
-}
-
-@keyframes bg {
-    0%{background-position:100% 7%}
-    50%{background-position:0% 94%}
-    100%{background-position:100% 7%}
 }
 
 .description, .links, .footer, .notfound {
@@ -32,6 +24,8 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
 	padding-bottom: 20px;
 	background-color: rgba(80, 0, 53, 0.5);
 	border: 6px solid rgba(180, 0, 156);
