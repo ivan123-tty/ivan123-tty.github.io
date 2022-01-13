@@ -13,10 +13,7 @@
 
 body {
 	font-family: Rubik;
-	background-attachment:fixed;
-	background-origin:initial;
-	background-repeat:no-repeat;
-    background-image: linear-gradient(310deg, #330a33, #b00098);
+    background-color: rgb(25, 0, 34);
 }
 
 .description, .links, .footer, .notfound {
@@ -27,8 +24,8 @@ body {
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-bottom: 20px;
-	background-color: rgba(80, 0, 53, 0.5);
-	border: 6px solid rgba(180, 0, 156);
+	border: 4px dashed rgba(180, 0, 156);
+	background-color: rgba(103, 0, 138, 0.3);
 	border-radius: 20px;
 	max-width: 325px;
 	min-width: 87px;
@@ -58,7 +55,7 @@ p {
 a, a:link, a:visited {
 	padding-right: 5px;
 	display: inline-block;
-	color: #ff00dd;
+	color: rgb(255, 0, 221);
 }
 
 a:hover {
