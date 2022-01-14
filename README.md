@@ -5,4 +5,6 @@ A new version of my website.
 
 Font: [Rubik](https://github.com/googlefonts/rubik)
 
-SVGs: [Twemoji](https://twemoji.twitter.com/)
+SVG country flags: [Twemoji](https://twemoji.twitter.com/)
+
+Material icons: [Here](https://developers.google.com/fonts/docs/material_icons)
