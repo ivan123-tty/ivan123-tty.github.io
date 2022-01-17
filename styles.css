@@ -2,6 +2,16 @@
 	font-size: 20px;
 }
 
+@media (max-width: 570px) {
+	.lang {
+		opacity: 50%;
+	}
+
+	.lang:hover {
+		opacity: 100%;
+	}
+}
+
 @font-face {
 	font-family: Rubik;
 	src: url(fonts/rubik.woff2);
@@ -99,12 +109,10 @@ a:hover {
 	top: 5px;
 	width: 54px;
 	height: 54px;
-	opacity: 50%;
 }
 
 .lang:hover {
 	transition-duration: 0.3s;
 	width: 50px;
 	height: 50px;
-	opacity: 100%;
 }
