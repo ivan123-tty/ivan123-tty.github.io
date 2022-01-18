@@ -26,9 +26,9 @@
 	font-weight: 400;
 	font-display: swap;
 	src: url(fonts/material.woff2) format('woff2');
-  }
+}
 
-  .material-icons {
+.material-icons {
 	font-family: 'Material Icons';
 	font-weight: normal;
 	font-style: normal;
@@ -46,21 +46,17 @@
 	position: relative;
 	bottom: -7px;
 	color: white;
-  }
+}
 
 body {
 	font-family: Rubik;
-    background-color: rgb(25, 0, 34);
+	background-color: rgb(25, 0, 34);
 }
 
 .description, .links, .footer, .notfound {
 	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 20px;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
+	margin: 0px auto 20px auto;
+	padding: 0px 20px 20px 20px;
 	border: 4px dashed rgba(180, 0, 156);
 	background-color: rgba(103, 0, 138, 0.3);
 	border-radius: 20px;
@@ -69,11 +65,11 @@ body {
 }
 
 .interests {
-	margin-top: 10px;
+	margin: 10px 0 0 0;
 }
 
 .footer {
-	padding-top: 20px;
+	padding: 20px;
 }
 
 .notfound {
