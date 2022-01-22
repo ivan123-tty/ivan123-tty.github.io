@@ -62,6 +62,12 @@ body {
 	border-radius: 20px;
 	max-width: 400px;
 	min-width: 87px;
+	transition-duration: 0.5s;
+}
+
+.description:hover, .links:hover, .footer:hover, .notfound:hover {
+	border: 4px dashed rgb(128, 0, 156);
+	background-color: rgba(79, 0, 105, 0.3);
 }
 
 .interests {
@@ -93,11 +99,11 @@ a, a:link, a:visited {
 	padding-right: 5px;
 	display: inline-block;
 	color: rgb(255, 0, 221);
+	transition-duration: 0.5s;
 }
 
 a:hover {
 	color: #ffff;
-	transition-duration: 0.3s;
 }
 
 .lang {
@@ -106,10 +112,10 @@ a:hover {
 	top: 5px;
 	width: 54px;
 	height: 54px;
+	transition-duration: 0.5s;
 }
 
 .lang:hover {
-	transition-duration: 0.3s;
 	width: 50px;
 	height: 50px;
 }
