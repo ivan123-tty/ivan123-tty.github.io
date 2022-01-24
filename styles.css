@@ -53,7 +53,7 @@ body {
 	background-color: rgb(25, 0, 34);
 }
 
-.description, .links, .footer, .notfound {
+.div-block {
 	display: block;
 	margin: 0px auto 20px auto;
 	padding: 0px 20px 20px 20px;
@@ -65,7 +65,7 @@ body {
 	transition-duration: 0.5s;
 }
 
-.description:hover, .links:hover, .footer:hover, .notfound:hover {
+.div-block:hover {
 	border: 4px dashed rgb(119 0 190);
 	background-color: rgba(63, 0, 105, 0.3);
 }
