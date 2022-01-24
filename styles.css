@@ -67,7 +67,7 @@ body {
 
 .description:hover, .links:hover, .footer:hover, .notfound:hover {
 	border: 4px dashed rgb(119 0 190);
-	background-color: rgba(79, 0, 105, 0.3);
+	background-color: rgba(63, 0, 105, 0.3);
 }
 
 .interests {
