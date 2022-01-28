@@ -21,6 +21,8 @@
 }
 
 .material-icons {
+	width: 32px;
+	height: 32px;
 	position: relative;
 	bottom: -7px;
 	color: white;
@@ -42,13 +44,6 @@ body {
 	min-width: 87px;
 	transition-duration: 0.5s;
 }
-
-/* FIXME: change the colors to be more suitable for the new design.
-.div-block:hover {
-	border: 4px dashed rgb(119 0 190);
-	background-color: rgba(63, 0, 105, 0.3);
-}
-*/
 
 .p-margin {
 	margin: 10px 0 0 0;
