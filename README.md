@@ -5,6 +5,4 @@ A new version of my website.
 
 Font: [Rubik](https://github.com/googlefonts/rubik)
 
-Material icons: [Here](https://developers.google.com/fonts/docs/material_icons)
-
-SVGs: [Twemoji](https://twemoji.twitter.com/)
+For icons, i use [Twemoji](https://twemoji.twitter.com/) and [Material icons](https://developers.google.com/fonts/docs/material_icons).
