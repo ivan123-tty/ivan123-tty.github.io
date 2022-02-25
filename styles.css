@@ -20,11 +20,17 @@
 	font-display: swap;
 }
 
+.material-icons-divicons {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	bottom: -7px;
+	color: white;
+}
+
 .material-icons {
 	width: 32px;
 	height: 32px;
-	position: relative;
-	bottom: -7px;
 	color: white;
 }
 
@@ -42,6 +48,10 @@ body {
 	background-color: rgb(60, 20, 60);
 	max-width: 400px;
 	min-width: 87px;
+}
+
+.div-margin {
+	margin-top: 20px;
 }
 
 .p-margin {
@@ -97,8 +107,9 @@ a:hover {
 
 .home {
 	position: fixed;
+	margin: 0px;
 	right: 5px;
-	top: 5x;
+	top: 5px;
 	width: 54px;
 	height: 54px;
 	transition-duration: 0.5s;
