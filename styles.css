@@ -81,7 +81,7 @@ a:hover {
 	color: #ffff;
 }
 
-.lang {
+/*lang {
 	position: fixed;
 	right: 5px;
 	top: 5px;
@@ -90,16 +90,16 @@ a:hover {
 	transition-duration: 0.5s;
 }
 
-.home {
-	position: fixed;
-	right: 5px;
-	top: 60px;
-	width: 54px;
-	height: 54px;
-	transition-duration: 0.5s;
-}
-
 .lang:hover, .home:hover {
 	width: 50px;
 	height: 50px;
+}*/
+
+.home {
+	position: fixed;
+	right: 5px;
+	top: 5x;
+	width: 54px;
+	height: 54px;
+	transition-duration: 0.5s;
 }
