@@ -100,3 +100,8 @@ a:hover {
 	height: 54px;
 	transition-duration: 0.5s;
 }
+
+.home:hover {
+	width: 60px;
+	height: 60px;
+}
