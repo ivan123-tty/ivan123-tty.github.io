@@ -5,4 +5,4 @@ A new version of my website.
 
 Font: [Rubik](https://github.com/googlefonts/rubik)
 
-For icons, i use [Twemoji](https://twemoji.twitter.com/) and [Material icons](https://developers.google.com/fonts/docs/material_icons).
+For icons, i use [Fluent Icons](https://github.com/microsoft/fluentui-system-icons).
