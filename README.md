@@ -1,4 +1,4 @@
-# ivan123s-website-new
+# ivan123-tty.github.io
 A new version of my website.
 
 # Credits
