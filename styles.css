@@ -36,7 +36,13 @@
 
 body {
 	font-family: Rubik;
-	background-color: rgb(25, 0, 34);
+	/*FIXME: Use a "background" parameter instead of 4 different ones.
+	background: rgb(25, 0, 34) no-repeat center; url(img/line-curve-fhd-trans.png);*/
+	background-color: rgb(24, 0, 35);
+	/*FIXME: Don't use the png format. Maybe I should remake the bg in svg? 🤔*/
+	background-image: url(img/line-curve-fhd-trans.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .div-block {
@@ -45,9 +51,11 @@ body {
 	padding: 0px 20px 20px 20px;
 	border: 4px solid rgb(104, 63, 101);
 	border-radius: 15px;
-	background-color: rgb(37, 23, 36);
+	background-color: rgba(37, 23, 36,0.6);
 	max-width: 400px;
 	min-width: 87px;
+	/*Fuck Firefox because it doesn't support backdrop-filter parameter in CSS. Mozilla, pls fix.*/
+	backdrop-filter: blur(10px);
 }
 
 .div-margin {
