@@ -44,7 +44,6 @@
 
 body {
 	font-family: Rubik;
-	/*FIXME: Use a "background" parameter instead of 4 different ones.*/
 	background-color: rgb(24, 0, 35);
 	background-image: url(svg/line-curve-bg.svg);
 	background-repeat: no-repeat;
@@ -55,13 +54,13 @@ body {
 	display: block;
 	margin: 0px auto 20px auto;
 	padding: 0px 20px 20px 20px;
-	border: 4px solid rgb(104, 63, 101);
+	border: 4px solid #683f65;
 	border-radius: 15px;
-	background-color: rgba(37, 23, 36,0.6);
+	background-color: #25172499;
 	max-width: 400px;
 	min-width: 87px;
 	/*Fuck Firefox because it doesn't support backdrop-filter parameter in CSS. Mozilla, pls fix.*/
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(20px);
 }
 
 .div-margin {
@@ -86,23 +85,23 @@ body {
 
 h1 {
 	font-size: 30px;
-	color: white;
+	color: #ffffff;
 }
 
 p {
 	margin: 0;
-	color: white;
+	color: #ffffff;
 }
 
 a, a:link, a:visited {
 	padding-right: 5px;
 	display: inline-block;
-	color: rgb(212, 127, 205);
+	color: #d47fcd;
 	transition-duration: 0.5s;
 }
 
 a:hover {
-	color: rgb(255, 255, 255);
+	color: #ffffff;
 }
 
 .home {
