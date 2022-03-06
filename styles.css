@@ -36,11 +36,9 @@
 
 body {
 	font-family: Rubik;
-	/*FIXME: Use a "background" parameter instead of 4 different ones.
-	background: rgb(25, 0, 34) no-repeat center; url(img/line-curve-fhd-trans.png);*/
+	/*FIXME: Use a "background" parameter instead of 4 different ones.*/
 	background-color: rgb(24, 0, 35);
-	/*FIXME: Don't use the png format. Maybe I should remake the bg in svg? 🤔*/
-	background-image: url(img/line-curve-fhd-trans.png);
+	background-image: url(svg/line-curve-bg.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -100,6 +98,7 @@ a:hover {
 }
 
 .home {
+	z-index: 1;
 	position: fixed;
 	margin: 0px;
 	right: 5px;
