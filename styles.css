@@ -12,6 +12,14 @@
 	}
 }
 
+@media (min-width: 1920px) {
+
+	body {
+		background-size: 100% 170%;
+		background-position: 0px -300px;
+	}
+}
+
 @font-face {
 	font-family: Rubik;
 	src: url(fonts/rubik.woff2);
