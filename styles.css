@@ -3,11 +3,11 @@
 }
 
 @media (max-width: 570px) {
-	.lang, .home {
+	.home {
 		opacity: 50%;
 	}
 
-	.lang:hover, .house:hover {
+	.house:hover {
 		opacity: 100%;
 	}
 }
@@ -15,7 +15,7 @@
 @media (min-width: 1920px) {
 
 	body {
-		background-size: 100% 170%;
+		background-size: 100% 158%;
 	}
 }
 
