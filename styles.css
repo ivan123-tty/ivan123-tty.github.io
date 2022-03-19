@@ -41,6 +41,17 @@
 	color: white;
 }
 
+html, body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	flex-grow: 1;
+	overflow: none;
+}
+
 body {
 	font-family: Rubik;
 	background-color: rgb(24, 0, 35);
