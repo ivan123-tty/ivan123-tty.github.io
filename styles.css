@@ -69,7 +69,6 @@ body {
 	background-color: #25172499;
 	max-width: 400px;
 	min-width: 87px;
-	/*Fuck Firefox because it doesn't support backdrop-filter parameter in CSS. Mozilla, pls fix.*/
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
 }
